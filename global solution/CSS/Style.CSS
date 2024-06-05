@@ -34,7 +34,7 @@ a{
 
 .conteudo{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-top: 95px;
 }
@@ -43,20 +43,21 @@ a{
     width: 632px;
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 0%;
     margin-left: 56px;
 }
 
 .texto{
     color: #013681;
-    font-size: 26px;
+    font-size: 30px;
     width: 633px;
     height: 204px;
     margin-left: 90px;
 }
 
 .imagem-barco{
-    width: 400px;
-    height: 232.31px;
+    width: 500px;
+    height: 300px;
     margin-right: 130px;
+    border-radius: 10px;
 }
