@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url();
+}
+
+.Blog{
+    background-color: aquamarine;
+    color: #ffff;
+    font-size: 60px;
+}
+
+.imagem-descarte{
+    width: 300px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.titulo-textos{
+    color: #013681;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

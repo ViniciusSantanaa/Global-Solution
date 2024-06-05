@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Blog{
+    color: #013681;
+    font-size: 36px;
+    margin-top: 37px;
+    margin-left: 63px;
+}
+
+.titulo-texto{
+    color: #187CE5;
+    font-size: 30px;
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    color: #013681;
+    font-size: 30px;
+    width: 635px;
+    margin-top: 52px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem-tartaruga{
+    width: 635px;
+    height: 422.41px;
+    margin-top: 58px;
+}
+
+.div-imagem{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    margin-bottom: 50px;
+}
