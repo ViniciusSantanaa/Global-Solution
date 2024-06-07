@@ -52,3 +52,54 @@ a{
     margin-top: 20px;
     width: 600px;
 }
+
+@media (max-width: 768px) {
+    a{
+        font-size: 1rem;
+    }
+
+    .nome-empresa{
+        font-size: 1.5rem;
+    }
+
+    ul{
+      align-items: baseline;
+    }
+
+    .Slogan{
+        font-size: 2rem;
+        width: 350px;
+    }
+
+    .frase-Slogan{
+        font-size: 1.5rem;
+        width: 450px;
+    }
+}
+
+@media (max-width: 425px) {
+    /*visão em 75% de zoom*/
+    a{
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .nome-empresa{
+        font-size: 1rem;
+    }
+
+    ul{
+        display: grid;
+        align-items: baseline;
+    }
+
+    .Slogan{
+        font-size: 1.5rem;
+        width: 300px;
+    }
+
+    .frase-Slogan{
+        font-size: 1.5rem;
+        width: 300px;
+    }
+}
