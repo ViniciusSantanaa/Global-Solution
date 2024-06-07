@@ -37,3 +37,51 @@ a{
     align-items: center;
     margin-top: 104px;
 }
+
+footer{
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .Integrantes{
+        font-size: 2rem;
+    }
+
+    .imagens-integrantes{
+        width: 200px;
+        height: 250px;
+    }
+
+    .nome-sala{
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+
+    .ajuste-div{
+        margin-top: 3rem;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .Integrantes{
+        font-size: 1.5rem;
+    }
+
+    .imagens-integrantes{
+        width: 150px;
+        height: 200px;
+        margin-top: 2rem;
+        border-radius: 5px;
+    }
+
+    .nome-sala{
+        font-size: 10px;
+        margin-top: 1rem;
+    }
+
+    .ajuste-div{
+        flex-direction: column;
+    }
+
+}
