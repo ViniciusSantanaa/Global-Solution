@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueWave</title>
+    <link rel="stylesheet" href="CSS/Style-report.CSS">
+</head>
+<body>
+    <header>
+          <h1>Reportar Incidente</h1>
+    </header>
+     <main>
+        <section class="formulario-reporte">
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                    
+                <label for="data">Data do Incidente:</label>
+                <input type="date" id="data" name="data" required>
+                    
+                <label for="localizacao">Localização:</label>
+                <input type="text" id="localizacao" name="localizacao" required>
+                    
+                <label for="tipo">Tipo de Incidente:</label>
+                <select id="tipo" name="tipo" required>
+                    <option value="poluicao">Poluição</option>
+                    <option value="derramamento">Derramamento de óleo</option>
+                    <option value="atividades_ilegais">Atividades ilegais</option>
+                    <option value="avistamento">Avistamento de animais</option>
+                    <option value="noticia">Noticias sobre a praia</option>
+                </select>
+                    
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" rows="5" required></textarea>
+                    
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
