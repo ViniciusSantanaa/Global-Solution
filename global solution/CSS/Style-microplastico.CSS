@@ -43,3 +43,53 @@ p{
 footer{
     margin-bottom: 4rem;
 }
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 2rem;
+    }
+
+    .titulo-texto{
+        font-size: 1.2rem;
+        width: 35rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    p{
+        font-size: 1.2rem;
+        width: 550px;
+        margin-top: 2rem;
+    }
+
+    .imagem-plastico{
+        width: 550px;
+        height: 300px;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    h1{
+        font-size: 1rem;
+    }
+
+    .titulo-texto{
+        font-size: 0.8rem;
+        width: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    p{
+        font-size: 0.8rem;
+        width: 15rem;
+        margin-top: 2rem;
+    }
+
+    .imagem-plastico{
+        width: 15rem;
+        height: 200px;
+        margin-top: 2rem;
+    }
+}
