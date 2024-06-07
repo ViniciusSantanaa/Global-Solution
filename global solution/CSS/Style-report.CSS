@@ -70,6 +70,12 @@ button:hover {
     color: #005599;
   }
 
+  @media  (max-width: 425px) {
+    header{
+        font-size: 0.8rem;
+    }
+  }
+
   @media (max-width: 768px) {
     main{
         height: 100%;
