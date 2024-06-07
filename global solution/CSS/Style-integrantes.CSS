@@ -17,6 +17,7 @@
 .imagens-integrantes{
     width: 300px;
     height: 325px;
+    border-radius: 5px;
 }
 
 .nome-sala{
