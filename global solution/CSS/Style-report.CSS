@@ -64,3 +64,8 @@ button {
 button:hover {
     background-color: #005599;
 }
+
+#mensagemEnviada {
+    display: none;
+    color: #005599;
+  }

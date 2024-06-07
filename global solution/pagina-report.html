@@ -12,7 +12,7 @@
     </header>
      <main>
         <section class="formulario-reporte">
-            <form>
+            <form id="formulario">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
                     
@@ -38,9 +38,12 @@
                 <textarea id="descricao" name="descricao" rows="5" required></textarea>
                     
                 <button type="submit">Enviar</button>
+
+                <div id="mensagemEnviada">Enviado!</div>
             </form>
         </section>
     </main>
     <footer></footer>
+    <script src="js/Script.js"></script>
 </body>
 </html>
