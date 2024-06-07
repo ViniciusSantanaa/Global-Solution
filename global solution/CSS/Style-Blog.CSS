@@ -57,3 +57,56 @@ h2{
     width: 425px;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .imagem-header{
+        height: 200px;
+    }
+
+    .Blog{
+        font-size: 3rem;
+    }
+
+    .imagens-textos{
+        width: 300px;
+        height: 250px;
+    }
+
+    .div-fundo{
+        margin-top: 2.5rem;
+        width: 300px;
+        height: 325px;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        width: 250px;
+    }
+}
+
+@media (max-width: 425px) {
+    .imagem-header{
+        height: 200px;
+        width: 100%;
+    }
+
+    .Blog{
+        font-size: 2rem;
+    }
+
+    .imagens-textos{
+        width: 150px;
+        height: 100px;
+    }
+
+    .div-fundo{
+        margin-top: 2.5rem;
+        width: 150px;
+        height: 160px;
+    }
+
+    h2{
+        font-size: 1rem;
+        width: 125px;
+    }
+}
