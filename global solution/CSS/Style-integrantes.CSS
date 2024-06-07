@@ -16,13 +16,19 @@
 
 .imagens-integrantes{
     width: 300px;
-    height: 360px;
+    height: 325px;
 }
 
 .nome-sala{
     color: #013681;
     font-size: 24px;
     margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #013681;
 }
 
 .ajuste-div{
