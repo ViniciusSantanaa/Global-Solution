@@ -69,3 +69,9 @@ button:hover {
     display: none;
     color: #005599;
   }
+
+  @media (max-width: 768px) {
+    main{
+        height: 100%;
+    }
+  }
