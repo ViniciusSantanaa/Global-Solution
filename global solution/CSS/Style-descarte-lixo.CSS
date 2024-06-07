@@ -43,3 +43,47 @@
 footer{
     margin-bottom: 50px;
 }
+
+@media (max-width: 768px) {
+    .Blog{
+        font-size: 2rem;
+    }
+
+    .titulo-texto{
+        font-size: 1.5rem;
+    }
+
+    .texto{
+        font-size: 1.2rem;
+        width: 550px;
+        margin-top: 2rem;
+    }
+
+    .imagem-tartaruga{
+        width: 550px;
+        height: 300px;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .Blog{
+        font-size: 1rem;
+    }
+
+    .titulo-texto{
+        font-size: 0.8rem;
+    }
+
+    .texto{
+        font-size: 0.8rem;
+        width: 15rem;
+        margin-top: 2rem;
+    }
+
+    .imagem-tartaruga{
+        width: 15rem;
+        height: 200px;
+        margin-top: 2rem;
+    }
+}
